@@ -1,0 +1,56 @@
+body {
+    background-image: linear-gradient(to bottom right, rgb(69, 25, 82), rgb(102, 37, 73), rgb(174, 68, 90), rgb(243, 159, 90) );
+    color: white;
+    font-family: "MedievalSharp", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    background-color: #ceb4b4;
+    color: white;
+    font-family: "MedievalSharp", cursive;
+    opacity: 0.5;
+}
+
+button:hover {
+    opacity: 1.0;
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.788) );
+}
+script {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+dotlottie-player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+
+}
+
+iframe {
+    max-width: 1600px;
+    max-height: 900px;
+    
+}
